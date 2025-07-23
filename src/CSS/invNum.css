@@ -1,0 +1,20 @@
+.invoBox{
+    margin: auto;
+    padding: auto;
+}
+
+.invN{
+   
+    margin-left: 0px;
+    color: rgb(252, 115, 4);
+    text-shadow: 1px 1px 1px rgb(164, 164, 226);
+    /* border: 1px solid rgb(0, 255, 0); */
+}
+span{
+    color: rgb(92, 75, 75);
+}
+
+.totalPaid{
+    color: rgb(252, 115, 4);
+    text-shadow: 1px 1px 1px rgb(164, 164, 226);
+}

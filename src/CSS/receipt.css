@@ -1,0 +1,132 @@
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  
+}
+
+.receipt-container {
+  background: white;
+  padding: 20px;
+  width: 800px;
+  height: auto;
+  border: 2px dashed black;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', monospace;
+  position: relative;
+  color: black;
+}
+
+.receipt h2 {
+  text-align: center;
+}
+
+
+
+.receipt-items {
+  width: 100%;
+  min-height: 30px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: rgb(31, 26, 26);
+  font-size: 1rem;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  width: 100%;
+  padding: 0 px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.receipt-total {
+  margin-top: 20px;
+  text-align: right;
+  color: rgb(233, 10, 10);
+  font-size: 1.5rem;
+}
+
+.botonBox{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+ /*  border: 2px solid red; */
+  /* margin: 5px; */
+  padding: 5px;
+  margin: 15px 5px;
+}
+
+.print-button {
+  height: 100%;
+  padding: 8px 12px;
+  background: rgb(81, 153, 78);
+  color: white;
+  border: none;
+  width: 180px;
+  cursor: pointer;
+ 
+}
+
+.print-button-close {
+ /*  margin: 15px 5px; */
+ height: 100%;
+  padding: 8px 12px;
+  background: rgb(81, 153, 78);
+  color: white;
+  border: none;
+  width: 180px;
+  cursor: pointer;
+ 
+}
+
+.headerName{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.em;
+  color: red;
+}
+
+#invoiceshow{
+  color: red;
+  font-weight:bold;
+}
+
+#productName{
+ /*  border: 1px solid red; */
+  min-width: 200px;
+  display: flex;
+  align-self: flex-start;
+}
+
+#productPrice{
+ /*   border: 1px solid red; */
+  min-width: 100px;
+  display: flex;
+  align-self: flex-start;
+}
+
+#productQuantity{
+/*    border: 1px solid red; */
+  min-width: 100px;
+  display: flex;
+  align-self: flex-start;
+
+}

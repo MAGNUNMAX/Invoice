@@ -1,0 +1,27 @@
+#products{
+    font-size: 1.5rem;
+    color: rgb(224, 77, 77);
+    font-weight: bold;
+}
+
+#dataShow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(105, 173, 105); */
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#prodName{
+    text-transform: capitalize;
+}
+
+span{
+    color: rgb(172, 133, 62);
+}
+

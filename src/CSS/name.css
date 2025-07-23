@@ -1,0 +1,43 @@
+.nameBox{
+ width: 400px;
+ height: 150px;
+ margin: 0px;
+ padding: 0px;
+ /* border: 2px solid red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+}
+
+.nameBox{
+  width: 400px;
+  height: 145px;
+  text-align: center;
+  margin: 0px;
+ padding: 0px;
+}
+
+.nameLabel{
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: rgb(252, 115, 4);
+}
+
+.button{
+ 
+ width: 70px;
+ height: 40px;
+ font-size: 15px;
+ text-align: center;
+ background-color:  rgba(190, 92, 11, 0.822);
+ margin: 15px;
+
+}
+
+.name{
+  color: rgb(95, 252, 4);
+  font-family:'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  
+}

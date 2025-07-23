@@ -24,7 +24,7 @@ A modern and dynamic invoice generator built with React and Vite. This applicati
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/invoice-app.git
+git clone https://github.com/MAGNUNMAX/Invoice.git
 cd invoice-app
 
 

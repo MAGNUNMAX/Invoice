@@ -11,8 +11,8 @@ function Receipt({ personName, productList, totalWithTax ,setShowReceipt, invoic
     <div className="modal-overlay">
       <div className="receipt-container">
         <div className="receipt">
-          <h2>🧾 Receipt</h2>
-          <p><strong>Client:</strong> {personName}</p>
+          <h2>🧾 Invoice</h2>
+          <h2><strong>Client:</strong>{personName}</h2>
           <p id="invoiceshow">Invoice Number  {invoiceNumber}</p>
           <div className="headerName">
                 <p>Product</p>
